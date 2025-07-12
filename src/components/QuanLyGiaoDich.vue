@@ -600,7 +600,7 @@
 
             if (response.success) {
                 toast.success('Thêm mới thành công')
-                modalDeleteRef.value?.hide()
+                modalAddRef.value?.hide()
                 await fetchGiaoDichs()
             }
         } catch (error) {
